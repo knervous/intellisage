@@ -37,6 +37,7 @@ function registerService(monacoService) {
       const { method, args, id } = e.data.intellisage;
       methods[method] = (payload) => {
         e.source.postMessage(
+          {
             intellisage: {
               method,
               id,
