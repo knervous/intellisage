@@ -1,0 +1,4 @@
+bin/
+obj/
+dotnet_quests.cs
+DotNetTypes.cs
