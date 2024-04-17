@@ -1,4 +1,14 @@
 function registerService(monacoService) {
+  // Broadcast init finished
+  if (window !== window.top) {
+    window.parent.postMessage(
+      {
+        intellisageInitialized: true
+      },
+      "*"
+    );
+  }
+
   const methods = {};
 
   // Override the invokeMethod prototype

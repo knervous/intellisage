@@ -61,10 +61,13 @@ public class RoslynProject
     public RoslynProject(string uri)
     {
         Uri = uri;
+
         // Assemblies we reference for metadata
         Assemblies.Add(Assembly.GetExecutingAssembly());
         Assemblies.Add(Assembly.Load("System.Runtime"));
+        Assemblies.Add(Assembly.Load("System.Collections"));
         Assemblies.Add(Assembly.Load("netstandard"));
+        Assemblies.Add(Assembly.Load("System"));
         Assemblies.Add(typeof(Console).Assembly);
         Assemblies.Add(typeof(List<>).Assembly);
         Assemblies.Add(typeof(DescriptionAttribute).Assembly);
@@ -74,6 +77,7 @@ public class RoslynProject
         Assemblies.Add(typeof(XmlDocument).Assembly);
         Assemblies.Add(typeof(INotifyPropertyChanged).Assembly);
         Assemblies.Add(typeof(System.Linq.Expressions.Expression).Assembly);
+
     }
 
     public async Task Init()
