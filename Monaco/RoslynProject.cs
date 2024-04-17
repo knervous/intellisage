@@ -68,6 +68,7 @@ public class RoslynProject
         Assemblies.Add(typeof(Console).Assembly);
         Assemblies.Add(typeof(List<>).Assembly);
         Assemblies.Add(typeof(DescriptionAttribute).Assembly);
+        Assemblies.Add(typeof(Task).Assembly);
         Assemblies.Add(typeof(Enumerable).Assembly);
         Assemblies.Add(typeof(DataSet).Assembly);
         Assemblies.Add(typeof(XmlDocument).Assembly);
