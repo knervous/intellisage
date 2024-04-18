@@ -65,7 +65,6 @@ public class RoslynProject
         // Assemblies we reference for metadata
         Assemblies.Add(Assembly.GetExecutingAssembly());
         Assemblies.Add(Assembly.Load("System.Runtime"));
-        Assemblies.Add(Assembly.Load("System.Core"));
         Assemblies.Add(Assembly.Load("System.Collections"));
         Assemblies.Add(Assembly.Load("netstandard"));
         Assemblies.Add(Assembly.Load("System"));
