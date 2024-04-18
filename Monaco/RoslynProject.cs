@@ -114,7 +114,7 @@ public class RoslynProject
             .Create(ProjectId.CreateNewId(), VersionStamp.Create(), "IntelliSage", "IntelliSage", LanguageNames.CSharp)
             .WithMetadataReferences(MetadataReferences)
             .WithCompilationOptions(new CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary))
-            .WithParseOptions(CSharpParseOptions.Default.WithLanguageVersion(LanguageVersion.CSharp12));
+            .WithParseOptions(CSharpParseOptions.Default.WithLanguageVersion(LanguageVersion.LatestMajor));
 
         var project = Workspace.AddProject(projectInfo);
 

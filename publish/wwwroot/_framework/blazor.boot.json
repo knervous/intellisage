@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "IntelliSage",
   "resources": {
-    "hash": "sha256-AEhGjwLFUOhKVEFt4/tqe7rOSuJ+EHJKlbUueq7RaPk=",
+    "hash": "sha256-W/xbL/Y6vrhnou7qezHZ7l7dy53eydHa6BcQIrhAGeo=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.67xoeeaprd.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -24,7 +24,7 @@
       "BlazorWorker.WorkerCore.dll": "sha256-Imvt6TSfcsWXzHw91PPUMUyHJYsc+Sh0m2YMWbglWX8=",
       "Humanizer.dll": "sha256-1oUwdVR9fjA+/WA1TZEaL/GO26WCzaL6WdkaLl3Pnpg=",
       "ICSharpCode.Decompiler.dll": "sha256-PYN7o2maVg1P2qmJyJ722wKQPEyHDl3VXRjKnDYPInA=",
-      "IntelliSage.dll": "sha256-4MUCIgM6ZinOir+K9D/jMUDVnI1W4TDxoJKFnW9mrUM=",
+      "IntelliSage.dll": "sha256-OOLJ1nRwEToTK4gnTBeloxz+MWsjrrrg8SskcLq+Ww0=",
       "Microsoft.AspNetCore.Components.dll": "sha256-sSBYMaLcGq1o/2MZZISjTpbaaPblNfYwqJ9uaWha3yc=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-ETeCk9RPnzWm0iEFVKFW6OqGkxI0CWbi2hn9FgHuNos=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-05sJvTMuaY/CfOso/Wd+7QYgPuNPd0XIMUKV73OEmQU=",

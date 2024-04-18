@@ -164,7 +164,7 @@ public static class EQEmuLogSysExtensions
     }
 }
 
-public interface INpcEvent
+public abstract class INpcEvent
 {
     void Say(NpcEvent e) { }
     void Trade(NpcEvent e) { }
@@ -310,7 +310,7 @@ public interface INpcEvent
     void SpellEffectBuffTicBot(NpcEvent e) { }
 }
 
-public interface IPlayerEvent
+public abstract class IPlayerEvent
 {
     void Say(PlayerEvent e) { }
     void EnterZone(PlayerEvent e) { }
@@ -405,7 +405,7 @@ public interface IPlayerEvent
     void SpellBlocked(PlayerEvent e) { }
 }
 
-public interface IItemEvent
+public abstract class IItemEvent
 {
     void ItemClick(ItemEvent e) { }
     void ItemClickCast(ItemEvent e) { }
@@ -425,7 +425,7 @@ public interface IItemEvent
     void TimerStop(ItemEvent e) { }
 }
 
-public interface ISpellEvent
+public abstract class ISpellEvent
 {
     void SpellEffectClient(SpellEvent e) { }
     void SpellEffectBuffTicClient(SpellEvent e) { }
@@ -435,14 +435,14 @@ public interface ISpellEvent
     void SpellEffectTranslocateComplete(SpellEvent e) { }
 }
 
-public interface IEncounterEvent
+public abstract class IEncounterEvent
 {
     void Timer(EncounterEvent e) { }
     void EncounterLoad(EncounterEvent e) { }
     void EncounterUnload(EncounterEvent e) { }
 }
 
-public interface IBotEvent
+public abstract class IBotEvent
 {
     void Cast(BotEvent e) { }
     void CastBegin(BotEvent e) { }
